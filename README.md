@@ -1,8 +1,11 @@
 # Education Equity & District Performance Analysis
 
 Author: Zachary Niccoli
+
 Tools: Python (Pandas, NumPy, MatPlotLib, Seaborn, Statsmodels, Sqlalchemy), PostgreSQL, Tableau
+
 Years Analyzed: 2021–2024
+
 Data Source: California Department of Education (via ed-data.org)
 
 ## Project Overview
