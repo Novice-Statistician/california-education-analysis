@@ -39,7 +39,7 @@ This project demonstrates an end-to-end analytics pipeline from raw data to exec
 
 - Combined three years of district-level academic and financial data
 
-- Cleaned suppressed and formatted numeric fields
+- Cleaned, suppressed, and formatted numeric fields
 
 - Standardized column names for SQL compatibility
 
@@ -107,7 +107,8 @@ This structure supports scalable dashboard reporting.
 
 ## Tableau Dashboard Development
 
-<img width="1187" height="782" alt="Education Performance" src="https://github.com/user-attachments/assets/c8bade5d-0e2d-4f88-a95e-f4011dc28f5c" />
+View the interactive dashboard on Tableau Public:  
+[Education Performance Analysis – Tableau Public](https://public.tableau.com/views/california_performance/EducationPerformanceAnalysis)
 
 Two dashboards were created:
 
@@ -126,7 +127,7 @@ Two dashboards were created:
 - Statewide ranking context
 
 - 3-year trend: Actual vs Predicted Achievement
-- 
+   
 <img width="1207" height="812" alt="District Deep Dive" src="https://github.com/user-attachments/assets/c43a1756-c641-442d-bf50-31949897fd84" />
 
 ## Key Findings
