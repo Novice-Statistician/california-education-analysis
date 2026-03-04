@@ -26,22 +26,22 @@ This project demonstrates an end-to-end analytics pipeline from raw data to exec
 
 ## Objectives
 
-Quantify the relationship between socioeconomic disadvantage and math achievement
+- Quantify the relationship between socioeconomic disadvantage and math achievement
 
-Evaluate whether funding offsets socioeconomic conditions
+- Evaluate whether funding offsets socioeconomic conditions
 
-Identify districts outperforming predicted achievement levels
+- Identify districts outperforming predicted achievement levels
 
-Build SQL-ready datasets for dashboard reporting
+- Build SQL-ready datasets for dashboard reporting
 
 ## Methodology
 ### Data Preparation
 
-Combined three years of district-level academic and financial data
+- Combined three years of district-level academic and financial data
 
-Cleaned suppressed and formatted numeric fields
+- Cleaned suppressed and formatted numeric fields
 
-Standardized column names for SQL compatibility
+- Standardized column names for SQL compatibility
 
 ### SES Index Construction
 
@@ -83,7 +83,7 @@ For each district-year observation:
 
 - Performance Gap = Actual Math Proficiency − Predicted Proficiency
 
-- District-level average gaps were used to identify:
+District-level average gaps were used to identify:
 
 - Top 20 Overperforming Districts
 
@@ -107,6 +107,8 @@ This structure supports scalable dashboard reporting.
 
 ## Tableau Dashboard Development
 
+<img width="1187" height="782" alt="Education Performance" src="https://github.com/user-attachments/assets/c8bade5d-0e2d-4f88-a95e-f4011dc28f5c" />
+
 Two dashboards were created:
 
 ### Statewide Performance Overview
@@ -114,6 +116,8 @@ Two dashboards were created:
 - Top & Bottom 20 Districts by Performance Gap
 
 - SES Index vs Math Achievement Scatter Plot
+- 
+<img width="1201" height="807" alt="Districts and Socioeconomics" src="https://github.com/user-attachments/assets/e25b2830-dddd-4406-bb96-dd2a86049ff1" />
 
 ### District Explorer
 
@@ -122,23 +126,25 @@ Two dashboards were created:
 - Statewide ranking context
 
 - 3-year trend: Actual vs Predicted Achievement
+- 
+<img width="1207" height="812" alt="District Deep Dive" src="https://github.com/user-attachments/assets/c43a1756-c641-442d-bf50-31949897fd84" />
 
 ## Key Findings
 
-Socioeconomic status explains a substantial portion of variation in district-level math achievement.
+- Socioeconomic status explains a substantial portion of variation in district-level math achievement.
 
-Funding shows a statistically significant but modest relationship with outcomes after controlling for SES.
+- Funding shows a statistically significant but modest relationship with outcomes after controlling for SES.
 
-Several districts consistently outperform predicted achievement levels, suggesting local institutional factors influence outcomes beyond structural conditions.
+- Several districts consistently outperform predicted achievement levels, suggesting local institutional factors influence outcomes beyond structural conditions.
 
-Performance gaps vary over time, indicating district performance is dynamic rather than fixed.
+- Performance gaps vary over time, indicating district performance is dynamic rather than fixed.
 
 ## Limitations
 
-The analysis is observational and does not establish causality.
+- The analysis is observational and does not establish causality.
 
-The SES Index is constructed from three proxy variables and may not capture all dimensions of socioeconomic disadvantage.
+- The SES Index is constructed from three proxy variables and may not capture all dimensions of socioeconomic disadvantage.
 
-District-level aggregation masks within-district variation across schools and student subgroups.
+- District-level aggregation masks within-district variation across schools and student subgroups.
 
-Additional covariates (teacher experience, class size, instructional models) were not included.
+- Additional covariates (teacher experience, class size, instructional models) were not included.
