@@ -16,11 +16,11 @@ Using regression modeling, I estimate predicted math proficiency based on a cons
 
 The final output includes:
 
-A fully documented Python modeling workflow
+- A fully documented Python modeling workflow
 
-A normalized PostgreSQL schema (dimension + fact tables)
+- A normalized PostgreSQL schema (dimension + fact tables)
 
-Interactive Tableau dashboards for statewide and district-level exploration
+- Interactive Tableau dashboards for statewide and district-level exploration
 
 This project demonstrates an end-to-end analytics pipeline from raw data to executive-ready reporting.
 
