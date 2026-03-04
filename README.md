@@ -116,7 +116,7 @@ Two dashboards were created:
 - Top & Bottom 20 Districts by Performance Gap
 
 - SES Index vs Math Achievement Scatter Plot
-- 
+  
 <img width="1201" height="807" alt="Districts and Socioeconomics" src="https://github.com/user-attachments/assets/e25b2830-dddd-4406-bb96-dd2a86049ff1" />
 
 ### District Explorer
